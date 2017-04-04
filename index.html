@@ -13,6 +13,106 @@
     </head>
   </head>
   <body>
+    <div class="container">
+      <div class="row" id="marqueeDisplay">
+        <h1>portland basement movie theater</h1>
+      </div>
 
+      <div class="row" id="showtimesDisplay">
+        <div class="movieDisplay">
+          <h3>Ghost in the Well</h3>
+          <ul>
+            <li>1:00pm</li>
+            <li>5:00pm</li>
+            <li>8:00pm</li>
+          </ul>
+          <p class="buyTicketsButton">buy tickets</p>
+        </div>
+        <div class="movieDisplay">
+          <h3>Ha Ha Land</h3>
+          <ul>
+            <li>1:00pm</li>
+            <li>5:00pm</li>
+            <li>8:00pm</li>
+          </ul>
+          <p class="buyTicketsButton">buy tickets</p>
+        </div>
+        <div class="movieDisplay">
+          <h3>Beauty and the Hipster</h3>
+          <ul>
+            <li>1:00pm</li>
+            <li>5:00pm</li>
+            <li>8:00pm</li>
+          </ul>
+          <p class="buyTicketsButton">buy tickets</p>
+        </div>
+        <div class="movieDisplay">
+          <h3>Free Range Senior Citizens</h3>
+          <ul>
+            <li>1:00pm</li>
+            <li>5:00pm</li>
+            <li>8:00pm</li>
+          </ul>
+          <p class="buyTicketsButton">buy tickets</p>
+        </div>
+      </div>
+
+      <div class="row" id="checkoutDisplay">
+        <h1>checkout</h1>
+        <h3>Host in the Bell (3:15)</h3>
+        <div id="ticketSelectionDisplay">
+          <select class="form-control">
+            <option value="0" disabled selected>Adult</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <select class="form-control">
+            <option value="0" disabled selected>Senior 60+</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <select class="form-control">
+            <option value="0" disabled selected>Child</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <select class="form-control">
+            <option value="0" disabled selected>Student with Valid ID</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div id="totalPriceDisplay">
+          <p>
+            your cart total is $0.00
+          </p>
+        </div>
+        <button class="btn btn-warning" type="submit" id="purchaseButton">Buy Now</button>
+      </div>
+
+      <div class="row" id="receiptDisplay">
+        <h1>receipt</h1>
+        <h3>Host in the Bell (3:15)</h3>
+        <p>tickets</p>
+        <ul>
+          <li>adult: 2 - 14.75</li>
+          <li>senior: 6 - 14.75</li>
+          <li>child: 2 - 10.75</li>
+        </ul>
+        <p>total: 35.05</p>
+      </div>
+    </div>
   </body>
 </html>
