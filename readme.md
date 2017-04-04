@@ -1,26 +1,24 @@
-# _BitCoin Bank of Oregon_
+# _Portland Basement Movie Theatre_
 
-#### _. Built with JavaScript, 4 April 2017_
+#### _Movie Ticket Site, 4 April 2017_
 
-#### By _**Aubrey Masten**_
+#### By _**Spencer Ruiz & Aubrey Masten**_
 
 ## Description
 
 
 ## Program Specifications
 
-  - User enters name and initial deposit, that data is stored in a new object.
-    - **Example Input:** John Smith, 1,000,000,000
-    - **Example Output:** {name: "John Smith", balance: 1000000000}
-  - User submits application, site displays welcome message and current balance.
-  - User submits transaction, deposit and withdrawal amounts are used to update the current balance.
-  - When transaction is submitted front-end balance is updated.
-  - If the user enters a negative value, the positive equivalent is submitted.
+  - User is presented with a list of movies, showtimes and 'buy tickets' buttons.
+  - User clicks buy tickets and is shown a checkout page, including available showtimes.
+  - User selects specific showtime, and is presented with corresponding ticket prices.
+  - As user selects their desired tickets, the cart total is updated automatically.
+  - When the user selects 'Buy Now', user is taken to a page displaying their receipt, which includes: movie title, ticket quantity and pricing and a total price.
 
 ## Setup/Installation Requirements
 
 Clone repository in a shell using the command:
-`git clone https://github.com/aubreymasten/ping-pong`
+`git clone https://github.com/aubreymasten/movie-tickets`
 
 ## Known Bugs
 
